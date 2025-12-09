@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# VRide (CRUD + Firebase)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple ride-sharing or ride-management application that uses Firebase for backend (database and data storage).  
+This project demonstrates full CRUD (Create, Read, Update, Delete) functionality.
 
-## Get started
+---
 
-1. Install dependencies
+## 📋 Table of Contents
 
+- [About](#about)  
+- [Features](#features)  
+- [Tech Stack](#tech-stack)  
+- [Setup & Installation](#setup--installation)  
+- [Usage](#usage)  
+- [Project Structure](#project-structure)  
+- [Contributing](#contributing)  
+- [License](#license)  
+
+---
+
+## About
+
+VRide is a demonstration project built to showcase how to integrate CRUD operations with Firebase — enabling you to create, read, update, and delete ride data. It’s ideal as a learning or starter template for building a more complex ride-sharing or booking system.
+
+---
+
+## Features
+
+- ✅ Create new rides (or ride posts)  
+- ✅ Read / view existing rides — list and detail view  
+- ✅ Update existing rides  
+- ✅ Delete rides  
+- ✅ Data persistence using Firebase (Firestore or Realtime Database, depending on your configuration)  
+- ✅ Simple user interface (or minimal UI) for CRUD operations  
+
+---
+
+## Tech Stack
+
+- 🔧 Frontend / UI: *(specify framework / language — e.g. React / Vue / plain HTML + JS)*  
+- 🔧 Backend / Data: Firebase (Firestore / Realtime Database)  
+- 🔧 Other libraries / tools: *(list any other libraries, e.g. UI libraries, state-management, routing, etc.)*  
+
+---
+
+## Setup & Installation
+
+1. Clone the repository  
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/EmmanGumia1/vride-with-crud-and-firebase.git
+   cd vride-with-crud-and-firebase
